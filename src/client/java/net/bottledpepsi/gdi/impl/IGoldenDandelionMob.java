@@ -1,4 +1,4 @@
-package net.karasuniki.gdi.impl;
+package net.bottledpepsi.gdi.impl;
 
 public interface IGoldenDandelionMob extends IMobParticle {
 }

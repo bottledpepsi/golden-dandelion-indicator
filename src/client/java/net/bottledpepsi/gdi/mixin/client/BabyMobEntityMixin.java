@@ -1,7 +1,7 @@
-package net.karasuniki.gdi.mixin.client;
+package net.bottledpepsi.gdi.mixin.client;
 
 import org.spongepowered.asm.mixin.Mixin;
-import net.karasuniki.gdi.impl.IGoldenDandelionMob;
+import net.bottledpepsi.gdi.impl.IGoldenDandelionMob;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.EntityType;
@@ -17,8 +17,8 @@ public abstract class BabyMobEntityMixin extends AgeableMob implements IGoldenDa
     @Override
     public void showGoldenParticle() {
         if (((LevelAccessor) this.level()).getIsClientSide()) {
-            this.level().addParticle(ParticleTypes.WAX_ON, this.getRandomX(0.5D), this.getRandomY() + 0.5D,
+            this.level().addParticle(ParticleTypes.HAPPY_VILLAGER, this.getRandomX(0.5D), this.getRandomY() + 0.5D,
                     this.getRandomZ(0.5D), 0.0D, 0.0D, 0.0D);
+            }
         }
     }
-}

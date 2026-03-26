@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.karasuniki.gdi.mixin",
+	"package": "net.bottledpepsi.gdi.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [],
 	"injectors": {
