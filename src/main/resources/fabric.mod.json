@@ -11,7 +11,7 @@
 		"homepage": "https://bottledpepsi.github.io/",
 		"sources": "https://github.com/bottledpepsi/golden-dandelion-indicator/"
 	},
-	"license": "GPL-v3.0",
+	"license": "GPL-3.0",
 	"icon": "assets/goldendandelionindicator/icon.png",
 	"environment": "client",
 	"entrypoints": {
