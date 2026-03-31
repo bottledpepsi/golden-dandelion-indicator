@@ -1,12 +1,16 @@
 {
-	"required": true,
-	"package": "net.bottledpepsi.gdi.mixin",
-	"compatibilityLevel": "JAVA_25",
-	"mixins": [],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": true,
+  "package": "net.bottledpepsi.gdi.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "client.BabyMobEntityMixin",
+    "client.LevelAccessor",
+    "client.PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
 }
