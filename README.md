@@ -6,7 +6,7 @@ Displays particles on mobs effected by the Golden Dandelion.
 - Only required on client-side
 - No server-side installation required for multiplayer
 ### Version Support
-- Minecraft 26.1
+- Minecraft 26.1x
 - Fabric and NeoForge
 ### Installation
 1. Install [Fabric Loader](https://fabricmc.net/use/) or [NeoForge](https://neoforged.net/).
